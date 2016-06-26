@@ -19,14 +19,81 @@
     <link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/searchbox.css" />
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 <body>
 <div class="container">
+    <div id="unisearch" class="unisearch">
+        <form class="unisearch-form">
+            <input class="unisearch-input" type="search" placeholder="Explore..."/>
+            <button class="unisearch-submit" type="submit">Search</button>
+        </form>
+        <div class="unisearch-content">
+            <div class="box-column">
+                <h2>Planets</h2>
+                <a class="media-box" target="_blank" href="https://en.wikipedia.org/wiki/Mars">
+                    <img src="img/planets/planets_07.png" alt="Mars"/>
+                    <h3>Mars</h3>
+                </a>
+                <a class="media-box" target="_blank" href="https://en.wikipedia.org/wiki/Saturn">
+                    <img src="img/planets/planets_09.png" alt="Saturn"/>
+                    <h3>Saturn</h3>
+                </a>
+                <a class="media-box" target="_blank" href="https://en.wikipedia.org/wiki/Neptune">
+                    <img src="img/planets/planets_11.png" alt="Neptune"/>
+                    <h3>Neptune</h3>
+                </a>
+                <!--<a class="media-box" target="_blank" href="https://en.wikipedia.org/wiki/Jupiter">-->
+                    <!--<img src="img/planets/planets_08.png" alt="Jupiter"/>-->
+                    <!--<h3>Jupiter</h3>-->
+                <!--</a>-->
+                <!--<a class="media-box" target="_blank" href="https://en.wikipedia.org/wiki/Pluto">-->
+                    <!--<img src="img/planets/planets_12.png" alt="Pluto"/>-->
+                    <!--<h3>Pluto</h3>-->
+                <!--</a>-->
+                <!--<a class="media-box" target="_blank" href="https://en.wikipedia.org/wiki/Venus">-->
+                    <!--<img src="img/planets/planets_03.png" alt="Venus"/>-->
+                    <!--<h3>Venus</h3>-->
+                <!--</a>-->
+            </div>
+            <div class="box-column">
+                <h2>Popular</h2>
+                <a class="media-box" target="_blank" href="https://en.wikipedia.org/wiki/Supernova">
+                    <img src="img/planets/planets_16.png" alt="Supernova"/>
+                    <h3>Supernova</h3>
+                </a>
+                <a class="media-box" target="_blank" href="https://en.wikipedia.org/wiki/Black_hole">
+                    <img src="img/planets/planets_15.png" alt="Black Hole"/>
+                    <h3>Black Hole</h3>
+                </a>
+                <a class="media-box" target="_blank" href="https://en.wikipedia.org/wiki/Thanos">
+                    <img src="img/planets/planets_14.png" alt="Thanos"/>
+                    <h3>Thanos</h3>
+                </a>
+            </div>
+            <div class="box-column">
+                <h2>Recent</h2>
+                <a class="media-box" target="_blank" href="https://en.wikipedia.org/wiki/Asteroid">
+                    <img src="img/planets/planets_12.png" alt="Asteroid"/>
+                    <h3>Asteroid</h3>
+                </a>
+                <a class="media-box" target="_blank" href="https://en.wikipedia.org/wiki/Sun">
+                    <img src="img/planets/planets_01.png" alt="Sun"/>
+                    <h3>Sun</h3>
+                </a>
+                <a class="media-box" target="_blank" href="https://en.wikipedia.org/wiki/Moon">
+                    <img src="img/planets/planets_05.png" alt="Moon"/>
+                    <h3>Moon</h3>
+                </a>
+            </div>
+        </div>
+        <span class="unisearch-close"></span>
+    </div>
     <header class="header">
-        <h1>Universal Search <span>Start searching the universe...</span></h1>
+        <h1>Universal Search <span>Start exploring the universe...</span></h1>
     </header>
     <aside class="clearfix">
         <nav>
@@ -35,6 +102,7 @@
             <a href="#"><i class="icon icomoon-chat"></i></a>
         </nav>
     </aside>
+    <div class="moving-object"></div>
     <div class="overlay"></div>
 </div>
 
