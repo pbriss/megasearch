@@ -6,6 +6,7 @@
   "dependencies": {
     "jquery": "3.0.0",
     "font-awesome": "~4.6.3",
-    "animate-css": "~3.5.2"
+    "animate-css": "~3.5.2",
+    "normalize-css": "normalize.css#^4.1.1"
   }
 }
