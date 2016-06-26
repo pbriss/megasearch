@@ -1,0 +1,2 @@
+# megasearch
+Slick fullscreen search
