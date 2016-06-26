@@ -1,0 +1,94 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: transparent url(../img/cosmos.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Raleway', Arial, sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    color: #8e82d7;
+}
+
+
+/* Header */
+header,
+aside {
+    max-width: 50%;
+    float: left;
+    padding: 40px;
+}
+
+aside {
+    padding: 50px 50px 0 0;
+    float: right;
+    min-height: 9em;
+}
+
+aside > nav {
+    float: left;
+    font-size: 1.5em;
+    line-height: 1.75;
+    text-align: center;
+    margin: 0 250px 1em 0;
+}
+
+aside > nav a {
+    margin: 0 5px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 100;
+    font-size: 4em;
+    line-height: 0.75;
+    color: #fff;
+    letter-spacing: -1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header h1 span {
+    display: block;
+    font-size: 25%;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-indent: 5px;
+    line-height: 1;
+    padding: 1em 0;
+    color: #aebcc3;
+}
+
+@media screen and (max-width: 60.625em) {
+    header,
+    aside {
+        float: none;
+        max-width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    aside > nav {
+        float: none;
+        margin: 100px 0.5em 0;
+    }
+}
