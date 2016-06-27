@@ -54,8 +54,11 @@
     background: transparent;
     font-size: 0.9em;
     color: #8e82d7;
+    font-weight: 500;
     -webkit-transition: font-size 0.5s cubic-bezier(0.7,0,0.3,1);
     transition: font-size 0.5s cubic-bezier(0.7,0,0.3,1);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .unisearch-input::-ms-clear { /* remove cross in IE */
@@ -285,7 +288,7 @@ input[type="search"] { /* reset normalize */
     vertical-align: middle;
     font-size: 0.85em;
     display: inline-block;
-    font-weight: 700;
+    font-weight: 600;
     margin: 0 0 0 0;
     width: calc(100% - 80px);
     color: rgba(255,255,255,0.5);
