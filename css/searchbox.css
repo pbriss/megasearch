@@ -338,7 +338,7 @@ input[type="search"] { /* reset normalize */
     background-size: 150px 100px;
 }
 
-.unisearch.open ~ aside,
+.unisearch.open ~ aside > nav,
 .unisearch.open ~ header {
     opacity: 0;
 }
