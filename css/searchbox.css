@@ -367,8 +367,12 @@ input[type="search"] { /* reset normalize */
 @media screen and (max-width: 60.625em) {
     .unisearch {
         width: 250px;
-        top: 200px;
+        top: 135px;
         left: 50%;
         margin-left: -125px;
+    }
+
+    .unisearch.open ~ .moving-object {
+        opacity: 0;
     }
 }
