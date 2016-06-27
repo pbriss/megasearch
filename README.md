@@ -1,2 +1,2 @@
-# megasearch
+# Universal Search
 Slick fullscreen search
