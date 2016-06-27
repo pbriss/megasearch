@@ -69,7 +69,7 @@ header h1 {
     margin: 0;
     font-weight: 100;
     font-size: 4em;
-    line-height: 0.75;
+    line-height: 1;
     color: #fff;
     letter-spacing: -1px;
     -webkit-font-smoothing: antialiased;
@@ -97,6 +97,6 @@ header h1 span {
     }
     aside > nav {
         float: none;
-        margin: 100px 0.5em 0;
+        margin: 30px 0.5em 0;
     }
 }
