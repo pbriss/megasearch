@@ -279,7 +279,7 @@ input[type="search"] { /* reset normalize */
 
 .media-box img {
     display: inline-block;
-    height: 50px;
+    width: 50px;
     margin: 0 5px 0 0;
     vertical-align: middle;
 }
@@ -305,7 +305,7 @@ input[type="search"] { /* reset normalize */
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.7);
     opacity: 0;
     pointer-events: none;
     -webkit-transition: opacity 0.5s;
@@ -316,26 +316,6 @@ input[type="search"] { /* reset normalize */
 
 .unisearch.open ~ .overlay {
     opacity: 1;
-}
-
-.moving-object {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    background: transparent url(../img/earth.png) no-repeat center bottom;
-    background-size: 400px 268px;
-    opacity: 1;
-    -webkit-transition: top 0.5s, background-size 0.5s;
-    transition: top 0.5s, background-size 0.5s;
-    -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-}
-
-.unisearch.open ~ .moving-object {
-    background-size: 150px 100px;
 }
 
 .unisearch.open ~ aside > nav,
@@ -370,9 +350,5 @@ input[type="search"] { /* reset normalize */
         top: 135px;
         left: 50%;
         margin-left: -125px;
-    }
-
-    .unisearch.open ~ .moving-object {
-        opacity: 0;
     }
 }
